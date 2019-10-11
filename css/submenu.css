@@ -1,0 +1,53 @@
+#navegador {  
+  font-family:"GillSansInfantW01-Bold";
+  padding: 0.5em; 
+}
+
+#navegador li { 
+  display:inline-block!important;
+  list-style-type: none;
+  color: #000;   
+}
+#navegador li:hover { 
+  color:#333!important;
+  height: 3.8em; 
+}
+
+#navegador li a:link, 
+#navegador li a:visited { 
+  text-decoration: none; 
+}
+#navegador li a:active { 
+  color:#333; 
+  text-decoration: none; 
+}
+
+#subseccion0 p,
+#subseccion1 p,
+#subseccion2 p,
+#subseccion3 p,
+#subseccion4 p{
+  margin:0px!important;
+}
+
+#subseccion0 p:first-child,
+#subseccion1 p:first-child,
+#subseccion2 p:first-child,
+#subseccion3 p:first-child,
+#subseccion4 p:first-child{
+   border-bottom: 1px solid #333 
+}
+
+#subseccion0 p:hover,
+#subseccion1 p:hover,
+#subseccion2 p:hover,
+#subseccion3 p:hover,
+#subseccion4 p:hover{
+   background: #c0bdbd!important;
+   color: #fff!important;
+   border-left: 5px solid red; 
+}
+
+.borrar { 
+  clear: both;
+}
